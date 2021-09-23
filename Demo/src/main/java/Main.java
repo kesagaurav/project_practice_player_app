@@ -9,6 +9,7 @@ public class Main {
 	public static void main(String[] args) {
 	//loading an driver class
 		Connection con=null;
+		System.out.println("hello gaurav");
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			System.out.println("\n driver loaded successfully");
